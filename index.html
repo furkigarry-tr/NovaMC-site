@@ -1,0 +1,77 @@
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaMC | Minecraft Sunucusu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">NOVA<span>MC</span></div>
+
+        <nav>
+            <a href="#anasayfa">Ana Sayfa</a>
+            <a href="#sunucu">Sunucu</a>
+            <a href="#hakkimizda">Hakkımızda</a>
+            <a href="#iletisim">İletişim</a>
+        </nav>
+    </header>
+
+    <main id="anasayfa">
+        <section class="hero">
+            <div class="hero-content">
+                <p class="tag">MINECRAFT NETWORK</p>
+
+                <h1>NOVA<span>MC</span></h1>
+
+                <p class="description">
+                    Yeni nesil Minecraft deneyimine hoş geldin.
+                    NovaMC topluluğuna katıl ve macerana başla.
+                </p>
+
+                <div class="buttons">
+                    <button onclick="copyIP()">IP'Yİ KOPYALA</button>
+                    <a href="#sunucu">SUNUCUYU KEŞFET</a>
+                </div>
+
+                <p id="copy-message"></p>
+            </div>
+        </section>
+
+        <section id="sunucu" class="section">
+            <h2>NovaMC</h2>
+            <p>Survival • Towny • BoxPvP • SkyBlock</p>
+
+            <div class="server-card">
+                <span>Sunucu IP</span>
+                <strong id="server-ip">play.novamc.xyz</strong>
+                <button onclick="copyIP()">KOPYALA</button>
+            </div>
+        </section>
+
+        <section id="hakkimizda" class="section">
+            <h2>Hakkımızda</h2>
+            <p>
+                NovaMC, oyunculara kaliteli ve eğlenceli bir Minecraft
+                deneyimi sunmak için oluşturulmuş bir Minecraft Network'tür.
+            </p>
+        </section>
+
+        <section id="iletisim" class="section">
+            <h2>İletişim</h2>
+            <p>Yakında Discord ve diğer sosyal medya bağlantıları burada olacak.</p>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 NovaMC • Tüm hakları saklıdır.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
